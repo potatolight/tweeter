@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  background-color:#4056A1;
+  height: 120px;
+  width: 100%;
+  color: #ffffff;
+  /* border: 2px solid red; */
+  /* align-items: center; */
+  flex-direction: column;
+  
+}
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  /* border: 4px solid white; */
+  margin: 1.5em;
+  /* flex-direction: column; */
+}
+.title-inside {
+  display: flex;
+  /* border: 2px solid green;  */
+  flex-direction: column;
+  text-align: center;
+}
+
+.comment {
+  float:right;
+}
+.title {
+  font-family: 'Bungee', cursive;
+  font-size: 1.5em;
+}

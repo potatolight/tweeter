@@ -1,0 +1,20 @@
+header {
+  background-color: thistle;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 4px solid red; */
+}
+.name {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 4px solid black; */
+}
+.name h2 {
+   margin:0;
+   padding: 0;
+   /* border: 4px solid green; */
+}

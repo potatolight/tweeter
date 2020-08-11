@@ -1,0 +1,25 @@
+::-webkit-scrollbar{
+  display:none;
+  }
+
+#tweet-text {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:none;
+  height: 50px;
+  background-color: #f4f1ec;
+  border-bottom: 2px solid black;
+}
+.button-part {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.button {
+  background-color:#4056A1;
+  color: white;
+  font-weight: bold;
+  
+}
