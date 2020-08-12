@@ -13,18 +13,21 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/friend.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script src="scripts/composer-char-counter.js"></script>
+
   </head>
 
   <body>
     
     <!-- Top nav bar (fixed) -->
-    <nav class = "navigation">
+    <nav class = "navigation sticky">
       <ul>
         <li class="title"><span>tweeter</span></li>
         <div class="title-inside">
@@ -33,7 +36,7 @@
         </div>
       </ul>
     </nav>
-    <header>
+    <header class="main-photo">
     <div class="photo">
         <img src="/images/profile-hex.png"> 
     </div>
@@ -48,12 +51,36 @@
         <h2>Compose Tweet</h2>
         <form method="POST" action="/tweets">
           <!-- <label for="tweet-text">What are you humming about?</label> -->
-          <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+          <textarea name="text" class="tweet-text" placeholder="What are you humming about?"></textarea>
           <div class="button-part">
             <button class="button" type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+      </section>
+      <section class="tweet-container">
+        <header>
+          <ul>
+            <div class="inside-tweetcontainer">
+              <li><img class="portrait" src="/images/piggy.png"></li> 
+              <li class="reallname">Newton</li>
+           </div>
+            <li class="username">@Sirlsaac</li>
+          </ul>
+        </header>
+        <article>
+          <textarea name="text" class="tweet-text message"></textarea>
+        </article>
+        <footer>
+          <ul>
+            <li class="days">10 days</li>
+            <div class="flag">
+              <li><i class="fab fa-gratipay"></i></li>
+              <li><i class="fas fa-retweet"></i></li>
+              <li><i class="fas fa-flag"></i></li>
+            </div>
+          </ul>
+        </footer>
       </section>
     </main>
   </body>

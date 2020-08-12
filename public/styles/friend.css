@@ -1,0 +1,57 @@
+.tweet-container {
+  margin-top: 50px;
+  border:4px solid black;
+}
+
+.tweet-container:hover .username {
+  display: block;
+}
+.tweet-container ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  /* border: 4px solid white; */
+  /* flex-direction: column; */
+}
+
+.inside-tweetcontainer {
+  display:flex;
+  justify-content: flex-start;
+}
+.portrait {
+  height: 100px;
+  margin:20px 20px 0 20px;
+
+}
+.heart {
+  height: 50px;
+  margin-right: 20px;
+}
+.username {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: none;
+  color: grey;
+}
+.reallname {
+  margin-top: 20px;
+}
+.days {
+  margin-left: 20px;
+}
+.message {
+  width: 96%;
+  margin-left: 20px;
+}
+
+.flag {
+  display: flex;
+  align-items: stretch;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.flag li {
+  margin-right: 10px;
+}
