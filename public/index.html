@@ -37,20 +37,22 @@
       </ul>
     </nav>
     <header class="main-photo">
-    <div class="photo">
-        <img src="/images/profile-hex.png"> 
-    </div>
-    <div class="name">
-        <h2>Your Name</h2>
-    </div>
-</header>
+      <div class="photo">
+          <img src="/images/profile-hex.png"> 
+      </div>
+      <div class="name">
+          <h2>Your Name</h2>
+      </div>
+    </header>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
-        <form method="POST" action="/tweets">
+        <form id="new-tweet" method="POST" action="/tweets">
           <!-- <label for="tweet-text">What are you humming about?</label> -->
+          <div class="firstdiv">No Comment.</div>
+          <div class="seconddiv">Content too long.</div> 
           <textarea name="text" class="tweet-text" placeholder="What are you humming about?"></textarea>
           <div class="button-part">
             <button class="button" type="submit">Tweet</button>
@@ -59,28 +61,7 @@
         </form>
       </section>
       <section class="tweet-container">
-        <header>
-          <ul>
-            <div class="inside-tweetcontainer">
-              <li><img class="portrait" src="/images/piggy.png"></li> 
-              <li class="reallname">Newton</li>
-           </div>
-            <li class="username">@Sirlsaac</li>
-          </ul>
-        </header>
-        <article>
-          <textarea name="text" class="tweet-text message"></textarea>
-        </article>
-        <footer>
-          <ul>
-            <li class="days">10 days</li>
-            <div class="flag">
-              <li><i class="fab fa-gratipay"></i></li>
-              <li><i class="fas fa-retweet"></i></li>
-              <li><i class="fas fa-flag"></i></li>
-            </div>
-          </ul>
-        </footer>
+        
       </section>
     </main>
   </body>

@@ -1,9 +1,9 @@
-.tweet-container {
+.ind {
   margin-top: 50px;
   border:4px solid black;
 }
 
-.tweet-container:hover .username {
+.ind:hover .username {
   display: block;
 }
 .tweet-container ul {
@@ -41,10 +41,10 @@
 .days {
   margin-left: 20px;
 }
-.message {
-  width: 96%;
+/* .message {
+  width: 100%;
   margin-left: 20px;
-}
+} */
 
 .flag {
   display: flex;
@@ -54,4 +54,22 @@
 }
 .flag li {
   margin-right: 10px;
+}
+
+.tweet-text {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:none;
+  height: 50px;
+  background-color: #f4f1ec;
+  border-bottom: 2px solid black;
+}
+
+.firstdiv {
+  display:none;
+}
+.seconddiv {
+  display:none;
 }
