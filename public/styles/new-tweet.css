@@ -1,3 +1,4 @@
+/* avoid  scrollbar*/
 ::-webkit-scrollbar{
   display:none;
   }
@@ -36,13 +37,14 @@
     width: 40%;
     float:left;
     margin-top: 200px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 3vw;
+    margin-right: 1vw;
 
   }
-  .large-screen {
+  .container {
     width: 50%;
     float: right;
     margin-top: 170px;
+    margin-right: 1.5vw;
   }
 } 

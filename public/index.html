@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <!-- Meta Information -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <title>Tweeter - Home Page</title>
 
     <!-- External CSS -->
@@ -17,7 +18,6 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
@@ -37,6 +37,8 @@
         </div>
       </ul>
     </nav>
+
+    <!-- header part -->
     <header class="main-photo">
       <div class="photo">
           <img src="/images/profile-hex.png"> 
@@ -47,12 +49,11 @@
     </header>
 
     <!-- Page-specific (main) content here -->
-    <div class="large-screen">
-    <main class="container">
+
+     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form id="new-tweet" method="POST" action="/tweets">
-          <!-- <label for="tweet-text">What are you humming about?</label> -->
           <div class="firstdiv"></div> 
           <textarea name="text" class="tweet-text" placeholder="What are you humming about?"></textarea>
           <div class="button-part">
@@ -61,10 +62,7 @@
           </div>
         </form>
       </section>
-      <section class="tweet-container">
-        
-      </section>
-    </div>
+      <section class="tweet-container"></section>
     </main>
   </body>
 </html>
