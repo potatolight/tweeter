@@ -1,3 +1,6 @@
+.tweet-container {
+  margin-bottom: 20px;
+}
 .ind {
   margin-top: 50px;
   border:4px solid black;
@@ -41,10 +44,10 @@
 .days {
   margin-left: 20px;
 }
-/* .message {
-  width: 100%;
+.message {
+
   margin-left: 20px;
-} */
+}
 
 .flag {
   display: flex;
@@ -69,7 +72,14 @@
 
 .firstdiv {
   display:none;
+  border: 2px solid red;
+  font-weight: bold;
+  text-align: center;
+  height: 40px;
+  vertical-align: middle；
 }
-.seconddiv {
-  display:none;
+hr {
+  /* border: 1px solid black; */
+  margin:20px;
+  padding-left: 20px;
 }

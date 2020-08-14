@@ -17,6 +17,7 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
@@ -41,18 +42,18 @@
           <img src="/images/profile-hex.png"> 
       </div>
       <div class="name">
-          <h2>Your Name</h2>
+          <h2>Grace Bai</h2>
       </div>
     </header>
 
     <!-- Page-specific (main) content here -->
+    <div class="large-screen">
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form id="new-tweet" method="POST" action="/tweets">
           <!-- <label for="tweet-text">What are you humming about?</label> -->
-          <div class="firstdiv">No Comment.</div>
-          <div class="seconddiv">Content too long.</div> 
+          <div class="firstdiv"></div> 
           <textarea name="text" class="tweet-text" placeholder="What are you humming about?"></textarea>
           <div class="button-part">
             <button class="button" type="submit">Tweet</button>
@@ -63,6 +64,7 @@
       <section class="tweet-container">
         
       </section>
+    </div>
     </main>
   </body>
 </html>

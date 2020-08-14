@@ -27,3 +27,22 @@
 .red {
   color: red;
 }
+
+@media only screen and (min-width: 768px) {
+  .navigation {
+    background-color: #4056A1;
+  }
+  .main-photo {
+    width: 40%;
+    float:left;
+    margin-top: 200px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+  }
+  .large-screen {
+    width: 50%;
+    float: right;
+    margin-top: 170px;
+  }
+} 
